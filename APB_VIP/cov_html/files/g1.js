@@ -1,0 +1,2 @@
+var g_data = {"9":{"pr":"/APB_PKG","ty":2,"dui":3,"dun":"work.APB_PKG","cvgs":[{"h":["\\/APB_PKG::APB_COVERAGE_COLLECTOR::APB_COVERAGE_COLLECTOR__1::cvg ",2,1,19,10],"sc":[22,6],"cov":[42,42,100.00],"opts":{"goal":"100"}},{"h":["/APB_PKG/APB_COVERAGE_COLLECTOR/APB_COVERAGE_COLLECTOR__1/cvg",1,1,10],"sc":[22,6],"cov":[42,42,100.00],"opts":{"goal":"100"}}]}};
+processCovergroupsData(g_data);

@@ -1,0 +1,2 @@
+var g_data = {"name":"APB_MASTER_SEQR.sv","src":"class APB_M_SEQR #(parameter ADDR_WIDTH = 32, DATA_WIDTH = 32) extends uvm_sequencer #(APB_M_TXN #(ADDR_WIDTH,DATA_WIDTH), APB_M_TXN #(ADDR_WIDTH,DATA_WIDTH));\r\n  \r\n  `uvm_component_param_utils(APB_M_SEQR#(ADDR_WIDTH,DATA_WIDTH))\r\n  \r\n  function new(string name,uvm_component parent);\r\n    super.new(name,parent);\r\n  endfunction\r\n  \r\nendclass","lang":"verilog"};
+processSrcData(g_data);

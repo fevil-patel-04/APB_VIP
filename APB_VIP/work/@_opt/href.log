@@ -1,0 +1,23 @@
+BEGIN 3:master_interface:fast__2:work
+    psel :  1:top:fast:work
+    pready :  1:top:fast:work
+    penb :  1:top:fast:work
+    prdata :  1:top:fast:work
+    pwrite :  1:top:fast:work
+    pslverr :  1:top:fast:work
+    paddr :  1:top:fast:work
+    pwdata :  1:top:fast:work
+END 
+BEGIN 3:slave_interface:fast__2:work
+    pwdata :  1:top:fast:work
+    psel :  1:top:fast:work
+    penb :  1:top:fast:work
+    pready :  1:top:fast:work
+    pwrite :  1:top:fast:work
+    prdata :  1:top:fast:work
+    paddr :  1:top:fast:work
+    pslverr :  1:top:fast:work
+END 
+BEGIN 1:top:fast:work
+    reset_ev :  1:top:fast:work
+END 

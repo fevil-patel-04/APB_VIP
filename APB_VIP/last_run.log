@@ -1,0 +1,201 @@
+Reading pref.tcl
+
+# 2025.2
+
+# ** Note: (vsim-220) 'modelsim.ini' is used as the ini file.
+# vsim -c -uvmcontrol=all -coverage -voptargs="+acc" -sv_lib /usr/share/questa/questasim//uvm-1.2/linux_x86_64/uvm_dpi work.top "+UVM_TESTNAME=APB_DIRECTED_TEST" -do "coverage save -onexit APB_DIRECTED_TEST.ucdb; run -all; quit" 
+# Start time: 01:53:40 on Mar 18,2026
+# Loading /tmp/root@48712ab0f709_dpi_256/linux_x86_64_gcc-11/export_tramp.so
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2025.2 linux_x86_64 May 31 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# ** Note: (vsim-8785) UVM-aware debugging capabilities will be disabled since no compiled "questa_uvm_pkg" can be found.
+# This also means that later if you turn on UVM-aware debugging your debug simulations may have
+# different random seeds from your non-debug simulations.
+# Loading sv_std.std
+# Loading work.master_interface(fast)
+# Loading work.slave_interface(fast)
+# Loading work.uvm_pkg(fast)
+# Loading work.APB_PKG(fast)
+# Loading work.testbench_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.slave_interface(fast__2)
+# Loading work.master_interface(fast__2)
+# ** Warning: (vsim-8637) A modport ('M_mp_drv') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /APB_PKG::APB_M_DRV #(32, 32) File: APB_MASTER_DRV.sv Line: 37
+# ** Warning: (vsim-8637) A modport ('M_mp_drv') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /APB_PKG::APB_M_DRV #(32, 32) File: APB_MASTER_DRV.sv Line: 38
+# ** Warning: (vsim-8637) A modport ('M_mp_drv') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /APB_PKG::APB_M_DRV #(32, 32) File: APB_MASTER_DRV.sv Line: 39
+# ** Warning: (vsim-8637) A modport ('M_mp_drv') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /APB_PKG::APB_M_DRV #(32, 32) File: APB_MASTER_DRV.sv Line: 40
+# ** Warning: (vsim-8637) A modport ('M_mp_drv') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /APB_PKG::APB_M_DRV #(32, 32) File: APB_MASTER_DRV.sv Line: 41
+# ** Warning: (vsim-8637) A modport ('M_mp_drv') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /APB_PKG::APB_M_DRV #(32, 32) File: APB_MASTER_DRV.sv Line: 42
+# ** Warning: (vsim-8637) A modport ('M_mp_drv') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /APB_PKG::APB_M_DRV #(32, 32) File: APB_MASTER_DRV.sv Line: 73
+# ** Warning: (vsim-8637) A modport ('M_mp_drv') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /APB_PKG::APB_M_DRV #(32, 32) File: APB_MASTER_DRV.sv Line: 103
+# ** Warning: (vsim-8637) A modport ('M_mp_drv') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /APB_PKG::APB_M_DRV #(32, 32) File: APB_MASTER_DRV.sv Line: 104
+# ** Warning: (vsim-8637) A modport ('M_mp_drv') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /APB_PKG::APB_M_DRV #(32, 32) File: APB_MASTER_DRV.sv Line: 105
+# ** Warning: (vsim-8637) A modport ('M_mp_drv') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /APB_PKG::APB_M_DRV #(32, 32) File: APB_MASTER_DRV.sv Line: 106
+# ** Warning: (vsim-8637) A modport ('M_mp_drv') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /APB_PKG::APB_M_DRV #(32, 32) File: APB_MASTER_DRV.sv Line: 107
+# ** Warning: (vsim-8637) A modport ('M_mp_drv') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /APB_PKG::APB_M_DRV #(32, 32) File: APB_MASTER_DRV.sv Line: 108
+# ** Warning: (vsim-8637) A modport ('M_mp_mon') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /APB_PKG::APB_M_MON #(32, 32) File: APB_MASTER_MON.sv Line: 23
+# ** Warning: (vsim-8637) A modport ('M_mp_mon') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /APB_PKG::APB_M_MON #(32, 32) File: APB_MASTER_MON.sv Line: 23
+# ** Warning: (vsim-8637) A modport ('M_mp_mon') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /APB_PKG::APB_M_MON #(32, 32) File: APB_MASTER_MON.sv Line: 25
+# ** Warning: (vsim-8637) A modport ('M_mp_mon') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /APB_PKG::APB_M_MON #(32, 32) File: APB_MASTER_MON.sv Line: 26
+# ** Warning: (vsim-8637) A modport ('M_mp_mon') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /APB_PKG::APB_M_MON #(32, 32) File: APB_MASTER_MON.sv Line: 27
+# ** Warning: (vsim-8637) A modport ('M_mp_mon') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /APB_PKG::APB_M_MON #(32, 32) File: APB_MASTER_MON.sv Line: 35
+# ** Warning: (vsim-8637) A modport ('M_mp_mon') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /APB_PKG::APB_M_MON #(32, 32) File: APB_MASTER_MON.sv Line: 36
+# ** Warning: (vsim-8637) A modport ('S_mp_drv') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /APB_PKG::APB_S_DRV #(32, 32) File: APB_SLAVE_DRV.sv Line: 13
+# ** Warning: (vsim-8637) A modport ('S_mp_drv') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /APB_PKG::APB_S_DRV #(32, 32) File: APB_SLAVE_DRV.sv Line: 21
+# ** Warning: (vsim-8637) A modport ('S_mp_drv') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /APB_PKG::APB_S_DRV #(32, 32) File: APB_SLAVE_DRV.sv Line: 24
+# ** Warning: (vsim-8637) A modport ('S_mp_mon') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /APB_PKG::APB_S_MON #(32, 32) File: APB_SLAVE_MON.sv Line: 24
+# ** Warning: (vsim-8637) A modport ('S_mp_mon') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /APB_PKG::APB_S_MON #(32, 32) File: APB_SLAVE_MON.sv Line: 25
+# ** Warning: (vsim-8637) A modport ('S_mp_mon') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /APB_PKG::APB_S_MON #(32, 32) File: APB_SLAVE_MON.sv Line: 27
+# Compiling /tmp/root@48712ab0f709_dpi_256/linux_x86_64_gcc-11/exportwrapper.c
+# Loading /tmp/root@48712ab0f709_dpi_256/linux_x86_64_gcc-11/vsim_auto_compile.so
+# Loading /usr/share/questa/questasim//uvm-1.2/linux_x86_64/uvm_dpi.so
+# coverage save -onexit APB_DIRECTED_TEST.ucdb
+#  run -all
+# UVM_INFO /usr/share/questa/questasim//verilog_src/uvm-1.2/src/base/uvm_root.svh(392) @ 0: reporter [UVM/RELNOTES] 
+# ----------------------------------------------------------------
+# UVM-1.2
+# (C) 2007-2014 Mentor Graphics Corporation
+# (C) 2007-2014 Cadence Design Systems, Inc.
+# (C) 2006-2014 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# (C) 2013-2014 NVIDIA Corporation
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO @ 0: reporter [RNTST] Running test APB_DIRECTED_TEST...
+# UVM_INFO /usr/share/questa/questasim//verilog_src/uvm-1.2/src/base/uvm_root.svh(579) @ 0: reporter [UVMTOP] UVM testbench topology:
+# --------------------------------------------------------------------------------------
+# Name                       Type                                            Size  Value
+# --------------------------------------------------------------------------------------
+# uvm_test_top               APB_DIRECTED_TEST                               -     @344 
+#   env                      uvm_env                                         -     @359 
+#     apb_cov                APB_COVERAGE_COLLECTOR#(ADDR_WIDTH,DATA_WIDTH)  -     @395 
+#       analysis_imp         uvm_analysis_imp                                -     @404 
+#     m_agnt                 uvm_agent                                       -     @368 
+#       m_drv                uvm_driver #(REQ,RSP)                           -     @552 
+#         rsp_port           uvm_analysis_port                               -     @571 
+#         seq_item_port      uvm_seq_item_pull_port                          -     @561 
+#       m_mon                uvm_monitor                                     -     @581 
+#         an_port            uvm_analysis_port                               -     @590 
+#       m_seqr               uvm_sequencer                                   -     @415 
+#         rsp_export         uvm_analysis_export                             -     @424 
+#         seq_item_export    uvm_seq_item_pull_imp                           -     @542 
+#         arbitration_queue  array                                           0     -    
+#         lock_queue         array                                           0     -    
+#         num_last_reqs      integral                                        32    'd1  
+#         num_last_rsps      integral                                        32    'd1  
+#     s_agnt                 uvm_agent                                       -     @377 
+#       s_drv                uvm_driver #(REQ,RSP)                           -     @743 
+#         rsp_port           uvm_analysis_port                               -     @762 
+#         seq_item_port      uvm_seq_item_pull_port                          -     @752 
+#       s_mon                uvm_monitor                                     -     @772 
+#         an_port            uvm_analysis_port                               -     @781 
+#       s_seqr               uvm_sequencer                                   -     @606 
+#         m_req_fifo         uvm_tlm_analysis_fifo #(T)                      -     @796 
+#           analysis_export  uvm_analysis_imp                                -     @845 
+#           get_ap           uvm_analysis_port                               -     @835 
+#           get_peek_export  uvm_get_peek_imp                                -     @815 
+#           put_ap           uvm_analysis_port                               -     @825 
+#           put_export       uvm_put_imp                                     -     @805 
+#         rsp_export         uvm_analysis_export                             -     @615 
+#         seq_item_export    uvm_seq_item_pull_imp                           -     @733 
+#         arbitration_queue  array                                           0     -    
+#         lock_queue         array                                           0     -    
+#         num_last_reqs      integral                                        32    'd1  
+#         num_last_rsps      integral                                        32    'd1  
+#     scr_bd                 uvm_scoreboard                                  -     @386 
+#       act_imp              uvm_analysis_imp_act                            -     @865 
+#       exp_imp              uvm_analysis_imp_exp                            -     @855 
+# --------------------------------------------------------------------------------------
+# 
+# UVM_INFO APB_MASTER_BASE_SEQ.sv(30) @ 45: uvm_test_top.env.m_agnt.m_seqr@@dir_seq [uvm_test_top.env.m_agnt.m_seqr.dir_seq] the value of Pslverr is 0
+# Printing Read data = 0 at t= 55
+# UVM_INFO APB_MASTER_BASE_SEQ.sv(30) @ 65: uvm_test_top.env.m_agnt.m_seqr@@dir_seq [uvm_test_top.env.m_agnt.m_seqr.dir_seq] the value of Pslverr is 0
+# Printing Read data = 4294967295 at t= 85
+# UVM_INFO APB_MASTER_BASE_SEQ.sv(30) @ 85: uvm_test_top.env.m_agnt.m_seqr@@dir_seq [uvm_test_top.env.m_agnt.m_seqr.dir_seq] the value of Pslverr is 0
+# Printing Read data = 0 at t= 95
+# UVM_INFO APB_MASTER_BASE_SEQ.sv(30) @ 105: uvm_test_top.env.m_agnt.m_seqr@@dir_seq [uvm_test_top.env.m_agnt.m_seqr.dir_seq] the value of Pslverr is 0
+# UVM_INFO /usr/share/questa/questasim//verilog_src/uvm-1.2/src/base/uvm_objection.svh(1270) @ 125: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# Printing Read data = 0 at t= 125
+# UVM_INFO APB_COVERAGE_COLLECTOR.sv(55) @ 125: uvm_test_top.env.apb_cov [apb_cov] THE TEST HAS BEEN PASSED SUCCESSFULLY NOW PRINTING THE COVERAGE INFORMATION BELOW 
+# UVM_INFO APB_COVERAGE_COLLECTOR.sv(57) @ 125: uvm_test_top.env.apb_cov [apb_cov] THE COVERAGE PERCENTAGE IS 25.000000
+# ******* ******* ******* *******
+# *     * *     * *       *      
+# *     * *     * *       *      
+# ******* ******* ******* *******
+# *       *     *       *       *
+# *       *     *       *       *
+# *       *     * ******* *******
+# TOTAL PASS COUNT = 4 
+# TOTAL FAIL COUNT = 0 
+# UVM_INFO /usr/share/questa/questasim//verilog_src/uvm-1.2/src/base/uvm_report_server.svh(847) @ 125: reporter [UVM/REPORT/SERVER] 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   10
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [RNTST]     1
+# [TEST_DONE]     1
+# [UVM/RELNOTES]     1
+# [UVMTOP]     1
+# [apb_cov]     2
+# [uvm_test_top.env.m_agnt.m_seqr.dir_seq]     4
+# 
+# ** Note: $finish    : /usr/share/questa/questasim//verilog_src/uvm-1.2/src/base/uvm_root.svh(517)
+#    Time: 125 ns  Iteration: 67  Instance: /top
+# Saving coverage database on exit...
+# End time: 01:53:41 on Mar 18,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 26
