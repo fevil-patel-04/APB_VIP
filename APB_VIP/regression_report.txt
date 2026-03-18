@@ -1,0 +1,31 @@
+====================================================
+           UVM REGRESSION SUMMARY REPORT            
+           Date: Wed Mar 18 01:53:18 EDT 2026                            
+====================================================
+APB_SANITY_TEST           : PASSED
+APB_WRITE_TEST            : PASSED
+APB_READ_TEST             : PASSED
+APB_B2B_TEST              : PASSED
+APB_ERROR_TEST            : FAILED
+APB_DIRECTED_TEST         : PASSED
+
+--- COVERAGE SUMMARY ---
+QuestaSim-64 vcover 2025.2 Coverage Utility 2025.05 May 31 2025
+Start time: 01:53:41 on Mar 18,2026
+vcover report -summary final_coverage.ucdb 
+Coverage Report Totals BY INSTANCES: Number of Instances 5
+
+    Enabled Coverage              Bins      Hits    Misses    Weight  Coverage
+    ----------------              ----      ----    ------    ------  --------
+    Assertions                       5         1         4         1    20.00%
+    Branches                       610        88       522         1    14.42%
+    Conditions                      95         2        93         1     2.10%
+    Covergroups                      1        na        na         1   100.00%
+        Coverpoints/Crosses          8        na        na         1        na
+            Covergroup Bins         42        42         0         1   100.00%
+    Statements                     832       428       404         1    51.44%
+    Toggles                       1200      1044       156         1    87.00%
+Total coverage (filtered view): 45.82%
+
+End time: 01:53:41 on Mar 18,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
