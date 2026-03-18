@@ -1,0 +1,2 @@
+var g_data = {"data":[{"n":"work.APB_PKG","id":3,"zf":1,"tc":41.16,"s":47.87,"b":14.66,"fc":2.10,"g":100.00},{"n":"work.master_interface","id":1,"zf":1,"tc":62.31,"s":100.00,"b":0.00,"t":86.95},{"n":"work.slave_interface","id":2,"zf":1,"tc":93.47,"s":100.00,"t":86.95},{"n":"work.top","id":5,"zf":1,"tc":100.00,"s":100.00,"t":100.00}]};
+processDuData(g_data);
